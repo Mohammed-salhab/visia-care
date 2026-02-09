@@ -1,11 +1,7 @@
-const App =() =>{
-    return(
-      <div>
-        <h1 className="text-3xl font-bold">App</h1>
-      </div>
-    )
+import Login from "./components/login&register/login";
+
+function App() {
+  return <Login />;
 }
 
-
-
-export default App
+export default App;
